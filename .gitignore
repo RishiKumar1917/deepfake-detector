@@ -1,0 +1,25 @@
+# Python byte-code
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyTorch model checkpoints (large binary files)
+*.pth
+*.pt
+
+# Generated outputs – keep the folder but ignore content
+outputs/*
+!outputs/.gitkeep
+
+# Input data – keep the folder but ignore content
+data/*
+!data/.gitkeep
+
+# Editor / OS artefacts
+.DS_Store
+*.swp
+.idea/
